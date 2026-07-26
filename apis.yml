@@ -1,8 +1,14 @@
 aid: every-company
 name: EVERY Company
-description: 'EVERY Company is a company surfaced as a portfolio company of prosus-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: foodtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'The EVERY Company (formerly Clara Foods; site now at every.com, redirected
+  from theeverycompany.com) is a foodtech ingredients company that produces animal-free,
+  antibiotic-free egg proteins using precision fermentation. Its flagship OvoPro product
+  replicates the functional properties of conventional eggs — binding, gelling, foaming,
+  and whipping — for food manufacturers making baked goods, frozen foods, pasta, and
+  protein bars, offering kosher, halal, and sustainable ingredients with more consistent
+  pricing and availability than animal-derived eggs. Backed by Prosus Ventures. As a
+  B2B ingredient supplier it publishes no public API or developer surface; this profile
+  captures its identity and domain security posture in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/every-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://every.com/wp-content/uploads/2025/06/Every-Social-Media-Image-768x403.webp
 tags:
 - Company
 - Foodtech
+- Precision Fermentation
+- Alternative Protein
+- Food Ingredients
+- Animal-Free
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/every-company-domain-security.yml
 - type: Website
-  url: https://theeverycompany.com
+  url: https://every.com/
+- type: About
+  url: https://every.com/about-us/
+- type: Products
+  url: https://every.com/our-solutions/
+- type: Support
+  url: https://every.com/talk/
+- type: Blog
+  url: https://every.com/resources/
+- type: Careers
+  url: https://job-boards.greenhouse.io/theeverycompany
+- type: PrivacyPolicy
+  url: https://every.com/privacy/
+- type: TermsOfService
+  url: https://every.com/terms/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/theeverycompany
+- type: Facebook
+  url: https://www.facebook.com/theEVERYcompany/
+- type: Instagram
+  url: https://www.instagram.com/theeverycompany/
+- type: X
+  url: https://x.com/theeverycompany
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
