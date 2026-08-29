@@ -10,6 +10,9 @@ description: 'The EVERY Company (formerly Clara Foods; site now at every.com, re
   B2B ingredient supplier it publishes no public API or developer surface; this profile
   captures its identity and domain security posture in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/every-company/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As a B2B ingredient supplier it publishes no public API or developer surface; this profile captures its identity and domain security posture in the API Evangelist network."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
